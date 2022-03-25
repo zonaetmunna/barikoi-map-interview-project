@@ -21,7 +21,7 @@ const MapDirection = () => {
                'top-left'
                );
 
-               // Create a default Marker and add it to the map.
+               /* // Create a default Marker and add it to the map.
                const marker1 = new mapboxgl.Marker()
                .setLngLat([90.412521, 23.8103318])
                .addTo(map);
@@ -29,7 +29,7 @@ const MapDirection = () => {
                // Create a default Marker, colored black, rotated 45 degrees.
                const marker2 = new mapboxgl.Marker({ color: 'black', rotation: 45 })
                .setLngLat([90.412521, 23.8103318])
-               .addTo(map);
+               .addTo(map); */
      },[])
 
      return (
